@@ -200,7 +200,7 @@ declare module "@formfusion/postcodes" {
     [K in keyof T as K extends string ? Lowercase<K> : never]: T[K];
   };
 
-  type postalcodes = LowercaseKeys<PostalCodes>;
+  const postalcodes: LowercaseKeys<PostalCodes>;
 
   export = postalcodes;
 }
