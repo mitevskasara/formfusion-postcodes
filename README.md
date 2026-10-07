@@ -2,7 +2,7 @@
 
 Set of validation rules for worldwide postal codes.
 
-A zero-dependency lookup table of **244 country-specific entries** — 194 regex patterns plus 50 `null` placeholders where no rule is known — for validating postal and ZIP codes. Every pattern works directly as an HTML [`pattern`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) attribute value, so you can use it with plain HTML, React, FormFusion, or `new RegExp()`.
+A zero-dependency lookup table of **194 country-specific entries** for validating postal and ZIP codes. Every pattern works directly as an HTML [`pattern`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) attribute value, so you can use it with plain HTML, React, FormFusion, or `new RegExp()`.
 
 ## Why
 
